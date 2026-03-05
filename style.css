@@ -62,24 +62,23 @@ header {
     text-decoration: none;
     margin-right: 10px;
 }
-
-nav ul {
+.home-page nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     align-items: center;
 }
 
-nav li a {
+.home-page nav li a {
     color: white;
     text-decoration: none;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     display: block;
 }
-    
-nav li a:hover {
+
+.home-page nav li a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -148,14 +147,22 @@ nav li a:hover {
     margin-bottom: -0.5rem;
     padding: 1rem 0;
 }
-
 .main-navbar ul {
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 0;
+    margin: 0;
 }
 
-.main-navbar li {
-    display: inline-block;
-    margin: 0 1.5rem; 
+.main-navbar a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .main-navbar a {
@@ -420,23 +427,26 @@ nav li a:hover {
 
 .customize-nav ul {
     list-style: none;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
     padding: 0;
+    margin: 0;
 }
 
 .customize-nav li {
     display: inline-block;
     margin: 0 2.5rem;
 }
-
 .customize-nav a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
-}
+    letter-spacing: 1px;
 
+}
 
 .customize-container {
     position: relative;
