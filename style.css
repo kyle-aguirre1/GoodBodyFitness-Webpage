@@ -519,6 +519,7 @@ header {
 }
 
 .cta-button {
+    font-family: 'Playfair Display', serif;
     font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
